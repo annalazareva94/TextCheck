@@ -1,0 +1,515 @@
+body{
+    background: #E5EAF5;
+    font-family: 'Arimo', sans-serif;
+    margin: 30px 0 30px 0;
+}
+.main-vector{
+    position: absolute;
+}
+.all-resume{
+    width: 595px;
+    height: 760px;
+    background-color: #fff;
+    margin: auto;
+}
+.top-section{
+    display: flex;
+    flex-direction: row;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+}
+.my-photo {
+    position: relative;
+    margin: 30px 65px 0px 71px;
+}
+.my-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #454B73;
+    margin: 51px 71px 5px 0;
+}
+.about-me-profession {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #454B73;
+    opacity: 60%;
+    margin: 5px 146px 20px 0;
+}
+.mail-line{
+    position: relative;
+    margin: 20px 71px 0 9px;
+
+}
+.mail-line img{
+    position: absolute;
+}
+.mail-icon img{
+    position: absolute;
+    margin: 0 0 0 -10px;
+}
+.e-mail{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 10px;
+    color: #454B73;
+    opacity: 0.7;
+    padding: 6px 0 5px 10px;
+    margin: 20px 71px 0 9px;
+}
+.phone-line{
+    position: relative;
+    margin: 14px 71px 0 9px;
+}
+.phone-line img{
+    position: absolute;
+}
+.phone-icon img{
+    position: absolute;
+    margin: 0 0 0 -10px;
+}
+.phone{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 10px;
+    color: #454B73;
+    opacity: 0.7;
+    padding: 6px 0 5px 10px;
+    margin: 14px 71px 0 9px;
+}
+.more-about-me{
+    margin: 32px 0 0 40px;
+}
+.about-me-titile-icon img{
+    position: absolute;
+}
+.about-me-title{
+    position: relative;
+    font-size: 13px;
+    line-height: 15px;
+    color: #454B73;
+    padding: 6px 0 6px 0;
+    margin: 6px 0 6px 13px;
+}
+.grey-frame img{
+    position: absolute;
+}
+.about-me-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 13px;
+    color: #454B73;
+    opacity: 70%;
+    margin: 10px 0 0 0;
+    width: 300px;
+    height: 52px;
+}
+.education-section{
+    margin: 20px 0 0 40px;
+}
+.education-titile-icon img{
+    position: absolute;
+}
+.education-title{
+    position: relative;
+    font-size: 13px;
+    line-height: 15px;
+    color: #454B73;
+    padding: 6px 0 6px 5px;
+    margin: 6px 0 6px 0;
+}
+.grey-long-frame img{
+    position: absolute;
+}
+.line{
+    display: flex;
+}
+.college-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 11px;
+    color: #454B73;
+    margin: 15px 0 0 0;
+}
+.blue-line-for-date{
+    position: relative;
+    margin: 21px 0 0 100px;
+    width: 66px;
+    height: 5px;
+}
+.date{
+    display: flex;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 165%;
+    color: #454B73;
+    opacity: 80%;
+    margin: 15px 0 0 -66px;
+}
+.special{
+    padding: 10px 0 0 5px;
+}
+.specialization{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 12px;
+    color: #454B73;
+    opacity: 80%;
+}
+.work-expierence-section{
+    margin: 20px 0 0 40px;
+}
+.work-expierencee-titile-icon img{
+    position: absolute;
+}
+.grey-long-frame2{
+    position: absolute;
+}
+.work-expierencee-titile{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #454B73;
+    padding: 6px 0 6px 5px;
+    margin: 6px 0 6px 0;
+}
+.work-line{
+    display: flex;
+}
+.work-company-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 11px;
+    color: #454B73;
+    margin: 15px 61px 0 0;
+}
+.pink-line-for-date{
+    position: relative;
+    margin: 21px 0 0 65px;
+    width: 63px;
+    height: 5px;
+}
+.work-date{
+    display: flex;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 165%;
+    color: #454B73;
+    opacity: 80%;
+    margin: 15px 0 0 -63px;
+}
+.responsibilities{
+    padding: 10px 0 0 5px;
+}
+.responsibility{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 12px;
+    color: #454B73;
+    opacity: 80%;
+}
+.hobbies-section{
+    margin: 20px 0 0 40px;
+}
+.hobby-titile-icon img{
+    position: absolute;
+}
+.hobby-title{
+    position: relative;
+    font-size: 13px;
+    line-height: 15px;
+    color: #454B73;
+    padding: 6px 0 6px 21px;
+    margin: center;
+}
+.grey-frame2 img{
+    position: absolute;
+}
+.hobby-classes{
+    display: flex;
+    margin: 18px 0 0 0;
+}
+.guitar{
+    width: 22px;
+    height: 18px;
+    margin: 0 17px 0 0;
+}
+.microphone{
+    width: 22px;
+    height: 18px;
+    margin: 0 17px 0 0;
+}
+.books{
+    width: 22px;
+    height: 18px;
+    margin: 0 17px 0 0;
+}
+.writing{
+    width: 22px;
+    height: 18px;
+    margin: 0 17px 0 0;
+}
+.skills-section{
+    margin: 57px 26px 0 50px;
+}
+.skills-titile-icon img{
+    position: absolute;
+}
+.skills-title{
+    position: relative;
+    font-size: 13px;
+    line-height: 15px;
+    color: #454B73;
+    padding: 6px 15px 6px 15px;
+    margin: center;
+}
+.grey-frame3 img{
+    position: absolute;
+}
+.line-skill{
+    display: flex;
+}
+.skills-python{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    color: #454B73;
+    margin: 15px 0 0 0;
+}
+.grey-line-python{
+    position: relative;
+    margin: 17px 0 0 66px;
+    width: 75px;
+    height: 5px;
+}
+.pink-line-python{
+    position: absolute;
+    width: 37px;
+    height: 5px;
+    margin: 17px 0 0 91px;
+}
+.skills-django{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    color: #454B73;
+    margin: 12px 0 0 0;
+}
+.grey-line-django{
+    position: relative;
+    margin: 16px 0 0 24px;
+    width: 75px;
+    height: 5px;
+}
+.blue-line-django{
+    position: absolute;
+    width: 25px;
+    height: 5px;
+    margin: 16px 0 0 91px;
+}
+.skills-sql{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    color: #454B73;
+    margin: 12px 0 0 0;
+}
+.grey-line-sql{
+    position: relative;
+    margin: 16px 0 0 75px;
+    width: 75px;
+    height: 5px;
+}
+.pink-line-sql{
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    margin: 16px 0 0 91px;
+}
+.skills-html{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    color: #454B73;
+    margin: 12px 0 0 0;
+}
+.grey-line-html{
+    position: relative;
+    margin: 16px 0 0 69px;
+    width: 75px;
+    height: 5px;
+}
+.blue-line-html{
+    position: absolute;
+    width: 32px;
+    height: 5px;
+    margin: 16px 0 0 90px;
+}
+.skills-css{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    color: #454B73;
+    margin: 12px 0 0 0;
+}
+.grey-line-css{
+    position: relative;
+    margin: 16px 0 0 74px;
+    width: 75px;
+    height: 5px;
+}
+.pink-line-css{
+    position: absolute;
+    width: 33px;
+    height: 5px;
+    margin: 16px 0 0 90px;
+}
+.skills-figma{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    color: #454B73;
+    margin: 12px 0 0 0;
+}
+.grey-line-figma{
+    position: relative;
+    margin: 16px 0 0 68px;
+    width: 75px;
+    height: 5px;
+}
+.blue-line-figma{
+    position: absolute;
+    width: 45px;
+    height: 5px;
+    margin: 16px 0 0 90px;
+}
+.languages-section{
+    margin: 20px 46px 0 46px;
+}
+.language-titile-icon img{
+    position: absolute;
+}
+.language-title{
+    position: relative;
+    font-size: 13px;
+    line-height: 15px;
+    color: #454B73;
+    padding: 6px 0 6px 21px;
+    margin: center;
+}
+.language-grey-frame img{
+    position: absolute;
+}
+.russian-lenguage-vector img{
+    position: absolute;
+    margin: 16px 0 0 1px;
+}
+.rus-line{
+    display: flex;
+}
+.rus-persent{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    color: #8D93B5;
+    margin: 21px 0 0 56px;
+}
+.russian-lenguage{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 9px;
+    color: #454B73;
+    margin: 17px 0 0 0;
+    padding: 6px 0 6px 42px;
+}
+.russian-lenguage-frame img{
+    position: absolute;
+    margin: 15px 0 0 0;
+}
+.ukranian-lenguage-vector img{
+    position: absolute;
+    margin: 16px 0 0 1px;
+}
+.ua-line{
+    display: flex;
+}
+.ua-persent{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    color: #8D93B5;
+    margin: 21px 0 0 49px;
+}
+.ukranian-lenguage{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 9px;
+    color: #454B73;
+    margin: 17px 0 0 0;
+    padding: 6px 0 6px 35px;
+}
+.ukranian-lenguage-frame img{
+    position: absolute;
+    margin: 15px 0 0 0;
+}
+.english-lenguage-vector img{
+    position: absolute;
+    margin: 16px 0 0 1px;
+}
+.eng-line{
+    display: flex;
+}
+.eng-persent{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    color: #8D93B5;
+    margin: 21px 0 0 49px;
+}
+.english-lenguage{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 9px;
+    color: #454B73;
+    margin: 17px 0 0 0;
+    padding: 6px 0 6px 35px;
+}
+.english-lenguage-frame img{
+    position: absolute;
+    margin: 15px 0 0 0;
+}

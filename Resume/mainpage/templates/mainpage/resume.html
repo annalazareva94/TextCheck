@@ -1,0 +1,205 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Резюме</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href = '{% static "resume/css/resume.css" %}'>
+    <link rel='stylesheet' href= 'https://use.fontawesome.com/releases/v5.8.2/css/all.css' >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <div class="all-resume">
+            <img class="main-vector" src='{% static "resume/img/Vector2.png" %}' alt="main vector">
+            <div class="top-section">
+                <!-- photo-->
+                <img class="my-photo" src='{% static "resume/img/my-photo.png" %}' alt="my photo">
+
+                <!-- name-->
+                <div class="about-me-section">
+                    <h1 class="my-name">Анна Лазарева</h1>
+                    <h2 class="about-me-profession">Вэб-разработчик</h2>
+                    <div class="mail-line">
+                        <img src='{% static "resume/img/Vector.jpg" %}' alt="mail">
+                        <div class="mail-icon">
+                            <img src='{% static "resume/img/Group 92.png" %}' alt="mail">
+                        </div>
+                        <h5 class="e-mail">al9154748164@gmail.com</h5>
+                    </div>
+                    <div class="phone-line">
+                        <img src='{% static "resume/img/Vector.jpg" %}' alt="phone">
+                        <div class="phone-icon">
+                            <img src='{% static "resume/img/Group 93.png" %}' alt="mail">
+                        </div>
+                        <h5 class="phone">+7 915 474 81 64</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-section">
+                <div class="right-section">
+                    <!-- about me-->
+                    <div class="more-about-me">
+                        <div class="about-me-titile-icon">
+                            <img src='{% static "resume/img/Vector-pink.png" %}' alt="vector pink">
+                        </div>
+                        <div class="grey-frame">
+                            <img src='{% static "resume/img/Rectangle 30.png" %}' alt="grey-frame">
+                        </div>
+                        <h3 class="about-me-title">ОБО МНЕ</h3>
+                        <h5 class="about-me-text">Меня зовут Анна. Я два года учу программирование на Python и вэб разработку. Этот сайт написанный на Django, где показаны мои знания в front-end и back-end разработке. А также представлен небольшой проект по обработке текстов, написанный на Python.</h5>
+                    </div>
+
+                    <!-- education-->
+                    <div class="education-section">
+                        <div class="education-titile-icon">
+                            <img src='{% static "resume/img/Vector-blue.png" %}' alt="vector blue">
+                        </div>
+                        <div class="grey-long-frame">
+                            <img src='{% static "resume/img/Rectangle 31.png" %}' alt="grey-frame">
+                        </div>
+                        <h3 class="education-title">ОБРАЗОВАНИЕ</h3>
+                        <div class="line">
+                            <h4 class="college-name">Харьковский КТК от НТУ 'ХПИ'</h4>
+                            <img class="blue-line-for-date" src='{% static "resume/img/blue-line-for-date.png" %}'>
+                            <h3 class="date">2010-09 - 2014-05</h3>
+                        </div>
+                        <ul class="special">
+                            <li class="specialization">Изготовление станков с программным управлением</li>
+                        </ul>
+
+                    </div>
+
+                    <!-- work expierence-->
+                    <div class="work-expierence-section">
+                        <div class="work-expierencee-titile-icon">
+                            <img src='{% static "resume/img/Vector-pink.png" %}' alt="vector pink">
+                        </div>
+                        <div class="grey-long-frame2">
+                            <img src='{% static "resume/img/Rectangle 31.png" %}' alt="grey-frame">
+                        </div>
+                        <h3 class="work-expierencee-titile">ОПЫТ РАБОТЫ</h3>
+                        <div class="work-line">
+                            <h4 class="work-company-name">ООО "Гелиос",     бухгалтер</h4>
+                            <img class="pink-line-for-date" src='{% static "resume/img/pink-line-for-date.png" %}'>
+                            <h3 class="work-date">2017-02 - сейчас</h3>
+                        </div>
+                        <ul class="responsibilities">
+                            <li class="responsibility">Работа с 1с и Excel</li>
+                            <li class="responsibility">Работа с документами</li>
+                            <li class="responsibility">Взаимодействие с заказчиками и поставщиками</li>
+                        </ul>
+                    </div>
+
+                    <!-- hobbies-->
+                    <div class="hobbies-section">
+                        <div class="hobby-titile-icon">
+                            <img src='{% static "resume/img/Vector-blue.png" %}' alt="vector blue">
+                        </div>
+                        <div class="grey-frame2">
+                            <img src='{% static "resume/img/Rectangle 30.png" %}' alt="grey-frame">
+                        </div>
+                        <h3 class="hobby-title">ХОББИ</h3>
+                        <div class="hobby-classes">
+                            <img class="guitar" src='{% static "resume/img/electric-guitar.png" %}' alt="guitar">
+                            <img class="microphone" src='{% static "resume/img/microphone.png" %}' alt="microphone">
+                            <img class="books" src='{% static "resume/img/open-book.png" %}' alt="books">
+                            <img class="writing" src='{% static "resume/img/feather-pen.png" %}' alt="writing">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="left-section">
+                    <!-- skills-->
+                    <div class="skills-section">
+                        <div class="skills-titile-icon">
+                            <img src='{% static "resume/img/Vector-blue.png" %}' alt="vector blue">
+                        </div>
+                        <div class="grey-frame3">
+                            <img src='{% static "resume/img/Rectangle 30.png" %}' alt="grey-frame">
+                        </div>
+                        <h3 class="skills-title">НАВЫКИ</h3>
+                        <div class="line-skill">
+                            <h5 class="skills-python">Python</h5>
+                            <img class="grey-line-python" src='{% static "resume/img/grey-skills-vector.png" %}' alt="grey-skills-vector">
+                            <img class="pink-line-python" src='{% static "resume/img/pink-skills-vector.png" %}' alt="pink-skills-vector">
+                        </div>
+                        <div class="line-skill">
+                            <h5 class="skills-django">Django Framework</h5>
+                            <img class="grey-line-django" src='{% static "resume/img/grey-skills-vector.png" %}' alt="grey-skills-vector">
+                            <img class="blue-line-django" src='{% static "resume/img/blue-skills-vector.png" %}' alt="blue-skills-vector">
+                        </div>
+                        <div class="line-skill">
+                            <h5 class="skills-sql">SQL</h5>
+                            <img class="grey-line-sql" src='{% static "resume/img/grey-skills-vector.png" %}' alt="grey-skills-vector">
+                            <img class="pink-line-sql" src='{% static "resume/img/pink-skills-vector.png" %}' alt="pink-skills-vector">
+                        </div>
+                        <div class="line-skill">
+                            <h5 class="skills-html">HTML</h5>
+                            <img class="grey-line-html" src='{% static "resume/img/grey-skills-vector.png" %}' alt="grey-skills-vector">
+                            <img class="blue-line-html" src='{% static "resume/img/blue-skills-vector.png" %}' alt="blue-skills-vector">
+                        </div>
+                        <div class="line-skill">
+                            <h5 class="skills-css">CSS</h5>
+                            <img class="grey-line-css" src='{% static "resume/img/grey-skills-vector.png" %}' alt="grey-skills-vector">
+                            <img class="pink-line-css" src='{% static "resume/img/pink-skills-vector.png" %}' alt="pink-skills-vector">
+                        </div>
+                        <div class="line-skill">
+                            <h5 class="skills-figma">Figma</h5>
+                            <img class="grey-line-figma" src='{% static "resume/img/grey-skills-vector.png" %}' alt="grey-skills-vector">
+                            <img class="blue-line-figma" src='{% static "resume/img/blue-skills-vector.png" %}' alt="blue-skills-vector">
+                        </div>
+                    </div>
+
+                    <!-- languages-->
+                    <div class="languages-section">
+                        <div class="language-titile-icon">
+                            <img src='{% static "resume/img/Vector-pink.png" %}' alt="vector pink">
+                        </div>
+                        <div class="language-grey-frame">
+                            <img src='{% static "resume/img/Rectangle 30.png" %}' alt="grey-frame">
+                        </div>
+                        <h3 class="language-title">ЯЗЫКИ</h3>
+                        <div class="russian-lenguage-frame">
+                            <img src='{% static "resume/img/frame for languages.png" %}' alt="frame for languages">
+                        </div>
+                        <div class="russian-lenguage-vector">
+                            <img src='{% static "resume/img/Rectangle 36.png" %}' alt="blue vector for languages">
+                        </div>
+                        <div class="rus-line">
+                            <h4 class="russian-lenguage">РУССКИЙ</h4>
+                            <h5 class="rus-persent">100%</h5>
+                        </div>
+                        <div class="ukranian-lenguage-frame">
+                            <img src='{% static "resume/img/frame for languages.png" %}' alt="frame for languages">
+                        </div>
+                        <div class="ukranian-lenguage-vector">
+                            <img src='{% static "resume/img/Rectangle 37.png" %}' alt="pink vector for languages">
+                        </div>
+                        <div class="ua-line">
+                            <h4 class="ukranian-lenguage">УКРАИНСКИЙ</h4>
+                            <h5 class="ua-persent">80%</h5>
+                        </div>
+                        <div class="english-lenguage-frame">
+                            <img src='{% static "resume/img/frame for languages.png" %}' alt="frame for languages">
+                        </div>
+                        <div class="english-lenguage-vector">
+                            <img src='{% static "resume/img/Rectangle 38.png" %}' alt="blue vector for languages">
+                        </div>
+                        <div class="eng-line">
+                            <h4 class="english-lenguage">АНГЛИЙСКИЙ</h4>
+                            <h5 class="eng-persent">60%</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
