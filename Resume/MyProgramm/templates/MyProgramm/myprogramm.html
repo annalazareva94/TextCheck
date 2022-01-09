@@ -26,7 +26,8 @@
         <form method="post">
             {% csrf_token %} <br>
             {{ form.full_text }}<br>
-            <button class="btn btn-success" type="submit">Проверить</button>
+            {{ formatform.format_text }}<br>
+            <button class="btn btn-success" type="submit" value="submit">Проверить</button>
         </form>
     </div>
 </main>
